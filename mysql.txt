@@ -1,0 +1,11 @@
+sudo apt-get update
+sudo apt-get install mysql
+
+?(Y/n)
+service mysql start
+
+mysql -u root -p
+
+>show databases;
+>create database test;
+>show databases;
